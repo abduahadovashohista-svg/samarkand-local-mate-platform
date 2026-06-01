@@ -1,0 +1,6 @@
+{
+  "name": "Samarkand Local Mate",
+  "description": "Samarqand bo'ylab sayohat qilish uchun mahalliy gidlar bilan bog'lanish va qiziqishlaringiz bo'yicha eng yaxshi hamrohni topish platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
