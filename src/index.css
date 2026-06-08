@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #006576;
+  --color-primary-hover: #00515e;
+  --color-primary-light: #e6f3f5;
+  --color-primary-dark: #004e5c;
+  
+  --color-secondary: #4059aa;
+  --color-secondary-hover: #314483;
+  --color-secondary-light: #dce1ff;
+  
+  --color-tertiary: #cca830;
+  --color-tertiary-hover: #a88922;
+  --color-tertiary-light: #fff8e3;
+  
+  --color-silk-bg: #f8f9fa;
+  --color-silk-dark: #191c1d;
+  --color-silk-muted: #3d494c;
+  --color-silk-card: #ffffff;
+  --color-silk-border: #e1e3e4;
+}
+
+/* Girih geometric tile style pattern overlay for cultural depth */
+.girih-pattern {
+  background-color: #ffffff;
+  background-image: 
+    linear-gradient(30deg, #f0f4f5 12%, transparent 12.5%, transparent 87%, #f0f4f5 87.5%, #f0f4f5),
+    linear-gradient(150deg, #f0f4f5 12%, transparent 12.5%, transparent 87%, #f0f4f5 87.5%, #f0f4f5),
+    linear-gradient(30deg, #f0f4f5 12%, transparent 12.5%, transparent 87%, #f0f4f5 87.5%, #f0f4f5),
+    linear-gradient(150deg, #f0f4f5 12%, transparent 12.5%, transparent 87%, #f0f4f5 87.5%, #f0f4f5),
+    linear-gradient(60deg, #e1ecee 25%, transparent 25.5%, transparent 75%, #e1ecee 75.5%, #e1ecee),
+    linear-gradient(60deg, #e1ecee 25%, transparent 25.5%, transparent 75%, #e1ecee 75.5%, #e1ecee);
+  background-size: 40px 70px;
+  background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+  opacity: 0.18;
+}
+
+.arch-top {
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+}
